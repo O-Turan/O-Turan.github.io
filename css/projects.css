@@ -1,0 +1,104 @@
+:root {
+    --item-background-color: rgba(56, 155, 180, 0.753);
+    --item-border: solid 2px rgb(0, 0, 0);
+    --color: rgb(255, 255, 255);
+    --color-black: black;
+    --article-border: solid 2px rgba(92, 86, 86, 0.075);
+    --article-background: white;
+}
+
+
+header {
+    color: var(--color);
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    height: 10vh;
+
+}
+
+
+
+.listing {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    list-style-type: none;
+    gap: 10px;
+    /* display:flex;
+    flex-direction:row;
+    justify-content: center; */
+
+}
+
+body {
+    background-image: url(/img/windowsXP.jpg);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.tak {
+    background-color: var(--item-background-color);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    gap: 10px;
+    color: black;
+}
+
+
+
+.listing li {
+    border: 2px solid rgb(70, 212, 203);
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(0, 106, 255);
+    background-color: white;
+
+}
+
+.listing li h4 {
+    background-color: rgb(69, 196, 207);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.listing .cta {
+    margin-top: auto;
+    border-top: 2px solid rgb(165, 95, 95);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.listing .body {
+    padding: 10px;
+
+}
+
+.body img {
+    width: 220px;
+    object-fit: cover;
+
+}
+
+a {
+    color: var(--four-background-color);
+    text-decoration: none;
+}

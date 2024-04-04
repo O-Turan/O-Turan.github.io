@@ -1,0 +1,63 @@
+:root {
+    --item-background-color: rgba(241, 125, 9, 0.753);
+    --item-border: solid 2px rgb(198, 152, 88);
+    --color: rgb(255, 255, 255);
+    --color-black: black;
+    --article-border: solid 2px rgba(211, 189, 189, 0.075);
+    --article-background: rgb(197, 165, 139);
+}
+
+
+
+header {
+    color: var(--color);
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+body {
+    background-image: url(/img/backgroundprojects.jpg);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+article {
+    width: 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    padding: 10px;
+    background-color: rgba(112, 170, 188, 0.54);
+    border-radius: 5px;
+    box-shadow: 0 20px 15px rgb(178, 127, 69);
+}
+
+
+
+.tak {
+    background-color: var(--item-background-color);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
