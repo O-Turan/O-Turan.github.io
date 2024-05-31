@@ -1,9 +1,18 @@
+
+:root {
+    --background-img: url(/img/wallpaperflare.com_wallpaper.jpg);
+    --background-img2: url(/img/aboutme.jpg);
+}
+
 body {
-    background-image: url(/img/wallpaperflare.com_wallpaper.jpg);
+    background-image: var(--background-img);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.body2{
+    background-image: var(--background-img2);
+}
 
 
 
