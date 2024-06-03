@@ -36,9 +36,7 @@ header {
 
 }
 
-body {
-    background-image: url(/img/windowsXP.jpg);
-}
+
 
 nav {
     display: flex;

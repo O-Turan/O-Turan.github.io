@@ -16,9 +16,7 @@ header {
     font-size: larger;
 }
 
-body {
-    background-image: url(/img/contact.jpg);
-}
+
 
 nav {
     display: flex;

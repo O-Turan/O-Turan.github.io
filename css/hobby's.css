@@ -16,10 +16,6 @@ header {
     font-size: larger;
 }
 
-body {
-    background-image: url(/img/backgroundprojects.jpg);
-}
-
 nav {
     display: flex;
     flex-direction: row;
